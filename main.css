@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities{
+    .buttons{
+        @apply px-4 py-2 border lg:text-lg text-xs border-[#F44335] rounded-full cursor-pointer hover:bg-[#F44335] transition hover:text-white;
+    }
+
+    .Checkmark{
+        @apply cursor-pointer transition-all hover:scale-110 duration-300;
+    }
+
+}
