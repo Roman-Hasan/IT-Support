@@ -11,7 +11,8 @@
 <header class="bg-white lg:px-20 px-3 py-4 dark:backdrop-blur-md dark:bg-slate-900/40 shadow  dark:shadow-white/5 sticky top-0 z-30">
      <nav class="flex justify-between items-center gap-2">
          <div class="w-40">
-              <img class="w-full object-cover" src="assets/logo.png" alt="">
+              <img class="w-full object-cover flex dark:hidden" src="assets/logo.png" alt="">
+              <img class="w-full object-cover hidden dark:flex" src="assets/whitelogo.png" alt="">
          </div>
          <div class="gap-8 lg:text-xl text-lg hidden md:flex">
             <a class="hover:text-[#F44335] transition-all duration-300 dark:text-white dark:hover:text-[#F44335]" href="#">Home</a>
@@ -65,9 +66,9 @@
                          </div>
                     </div>
 
-                    <div class="flex gap-6 items-center justify-center sm:justify-normal">
-                        <a class="bg-[#F44335] text-white px-6 text-lg rounded-md py-3 hover:bg-[#d8493e] dark:bg-[#0167DD] transition-all duration-300 hover:scale-105" href="#">Sign up</a>
-                        <a class="bg-white border px-6 py-3 rounded-md text-lg hover:bg-[#4acf8f] dark:hover:bg-[#d8493e] dark:border-none hover:text-white transition-all duration-300 hover:scale-105" href="#">Learn more</a>
+                    <div class="flex flex-wrap gap-6 items-center justify-center sm:justify-normal">
+                        <a class="bg-[#F44335] text-white px-6 text-lg rounded-md py-3 hover:bg-[#d8493e] transition-all duration-300 hover:scale-105" href="#">Sign up</a>
+                        <a class="bg-white border px-6 py-3 rounded-md text-lg hover:bg-[#46c085] dark:border-none hover:text-white transition-all duration-300 hover:scale-105" href="#">Learn more</a>
                     </div>
                 </div>
 
@@ -79,7 +80,7 @@
 
        <!-- company section -->
         <section>
-            <div class="flex gap-2 md:gap-0 justify-between items-center lg:px-40 px-4 flex-wrap bg-white dark:bg-[#4e5666] py-3">
+            <div class="flex gap-2 md:gap-0 justify-between items-center lg:px-40 px-4 flex-wrap bg-white dark:bg-[#111c31] py-3">
                 <div>
                     <p class="xl:text-lg text-xs dark:text-white">Pave your path to career success by <br> gaining  a  professional  Google <br> certificate with the support of C4U</p>
                 </div>
@@ -89,11 +90,13 @@
                 </div>
                 <span class="w-0.5 h-28 border lg:flex hidden"></span>
                 <div class="xl:max-w-36 max-w-24">
-                    <img class="w-full" src="assets/WorkPensions.png" alt="">
+                    <img class="w-full flex dark:hidden" src="assets/WorkPensions.png" alt="">
+                    <img class="w-full hidden dark:flex" src="assets/WorkPensionsWhite.png" alt="">
                 </div>
                 <span class="w-0.5 h-28 border lg:flex hidden"></span>
                 <div class="xl:max-w-40 max-w-28">
-                    <img class="w-full" src="assets/logo.png" alt="">
+                    <img class="w-full flex dark:hidden" src="assets/logo.png" alt="">
+                    <img class="w-full hidden dark:flex" src="assets/whitelogo.png" alt="">
                 </div>
             </div>
         </section>
@@ -269,7 +272,7 @@
           <!-- Support section -->
            <section class="xl:px-40 px-6 my-32">
                 <div class="flex lg:flex-row flex-col shadow-lg rounded-2xl dark:shadow-blue-500/30">
-                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none">
+                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl lg:rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none dark:rounded-br-none">
                         <span class="text-[#00FF84]">Course 1 </span>
                         <h2 class="md:text-[35px] text-[30px] font-semibold my-5">Technical Support Fundamentals</h2>
                         <div class="flex items-center justify-between">
@@ -291,7 +294,7 @@
                         </div>
                         <p class="md:absolute static lg:bottom-10 bottom-0 text-xs px-2 py-5">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
                      </div>
-                     <div class="px-6 py-12  dark:bg-[#111c31] dark:text-white rounded-tr-2xl rounded-br-2xl">
+                     <div class="px-6 py-12  dark:bg-[#111c31] dark:text-white rounded-br-2xl dark:lg:rounded-tr-2xl dark:rounded-br-2xl dark:rounded-tl-none dark:rounded-tr-none dark:rounded-bl-2xl dark:lg:rounded-bl-none">
                          <h2 class="text-2xl font-semibold text-[#F9CCC7]">About this course</h2>
                          <p class="text-lg py-5">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
                          <h2 class="text-2xl font-semibold text-[#F9CCC7] mb-5">What you will learn </h2>
@@ -351,7 +354,7 @@
             
            <section class="xl:px-40 px-6 my-32">
                 <div class="flex lg:flex-row flex-col shadow-lg rounded-2xl dark:shadow-blue-500/30">
-                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none">
+                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl lg:rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none dark:rounded-br-none">
                         <span class="text-[#00FF84]">Course 2 </span>
                         <h2 class="md:text-[35px] text-[30px] font-semibold my-5">The Bits and <br> Bytes of Computer Networking</h2>
                         <div class="flex items-center justify-between">
@@ -373,7 +376,7 @@
                         </div>
                         <p class="md:absolute static lg:bottom-10 bottom-0 text-xs py-5">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
                      </div>
-                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white">
+                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white rounded-br-2xl dark:lg:rounded-tr-2xl dark:rounded-br-2xl dark:rounded-tl-none dark:rounded-tr-none dark:rounded-bl-2xl dark:lg:rounded-bl-none">
                          <h2 class="text-2xl font-semibold text-[#F9CCC7]">About this course</h2>
                          <p class="text-lg py-5">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. </p>
                          <h2 class="text-2xl font-semibold text-[#F9CCC7] mb-5">What you will learn </h2>
@@ -430,7 +433,7 @@
           
         <section class="xl:px-40 px-6 my-32">
                 <div class="flex lg:flex-row flex-col shadow-lg rounded-2xl dark:shadow-blue-500/30">
-                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none">
+                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl lg:rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none dark:rounded-br-none">
                         <span class="text-[#00FF84]">Course 3 </span>
                         <h2 class="md:text-[35px] text-[30px] font-semibold my-5">Operating Systems and You: Becoming <br> a Power User</h2>
                         <div class="flex items-center justify-between">
@@ -452,7 +455,7 @@
                         </div>
                         <p class="md:absolute static lg:bottom-10 bottom-0 px-2 text-xs py-5">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
                      </div>
-                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white">
+                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white rounded-br-2xl dark:lg:rounded-tr-2xl dark:rounded-br-2xl dark:rounded-tl-none dark:rounded-tr-none dark:rounded-bl-2xl dark:lg:rounded-bl-none">
                          <h2 class="text-2xl font-semibold text-[#F9CCC7]">About this course</h2>
                          <p class="text-lg py-5">In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware. </p>
                          <h2 class="text-2xl font-semibold text-[#F9CCC7] mb-5">What you will learn </h2>
@@ -513,7 +516,7 @@
 
            <section class="xl:px-40 px-6 my-32">
                 <div class="flex lg:flex-row flex-col shadow-lg rounded-2xl dark:shadow-blue-500/30">
-                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none">
+                     <div class="relative bg-[#2D3142] text-white px-6 py-7 rounded-tl-2xl lg:rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none dark:rounded-br-none">
                         <span class="text-[#00FF84]">Course 4 </span>
                         <h2 class="md:text-[35px] text-[30px] font-semibold my-5">System Administration <br> and IT Infrastructure Services</h2>
                         <div class="flex items-center justify-between">
@@ -535,7 +538,7 @@
                         </div>
                         <p class="md:absolute static lg:bottom-10 bottom-0 px-2 text-xs py-5">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
                      </div>
-                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white">
+                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white rounded-br-2xl dark:lg:rounded-tr-2xl dark:rounded-br-2xl dark:rounded-tl-none dark:rounded-tr-none dark:rounded-bl-2xl dark:lg:rounded-bl-none">
                          <h2 class="text-2xl font-semibold text-[#F9CCC7]">About this course</h2>
                          <p class="text-lg py-5">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster.</p>
                          <h2 class="text-2xl font-semibold text-[#F9CCC7] mb-5">What you will learn </h2>
@@ -598,7 +601,7 @@
             
           <section class="xl:px-40 px-6 my-32">
                 <div class="flex lg:flex-row flex-col shadow-lg rounded-2xl  dark:shadow-blue-500/30">
-                     <div class="relative bg-[#2D3142] text-white px-8 py-7 rounded-tl-2xl rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none">
+                     <div class="relative bg-[#2D3142] text-white px-8 py-7 rounded-tl-2xl lg:rounded-bl-2xl rounded-tr-2xl rounded-br-2xl lg:rounded-r-none dark:rounded-br-none">
                         <span class="text-[#00FF84]">Course 2 </span>
                         <h2 class="md:text-[35px] text-[30px] font-semibold my-5">IT Security: Defense against the digital dark arts</h2>
                         <div class="flex items-center gap-3 justify-between">
@@ -620,7 +623,7 @@
                         </div>
                         <p class="md:absolute static lg:bottom-10 bottom-0  text-xs py-5 pr-4">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
                      </div>
-                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white">
+                     <div class="px-6 py-12 dark:bg-[#111c31] dark:text-white rounded-br-2xl dark:lg:rounded-tr-2xl dark:rounded-br-2xl dark:rounded-tl-none dark:rounded-tr-none dark:rounded-bl-2xl dark:lg:rounded-bl-none">
                          <h2 class="text-2xl font-semibold text-[#F9CCC7]">About this course</h2>
                          <p class="text-lg py-5">This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.</p>
                          <h2 class="text-2xl font-semibold text-[#F9CCC7] mb-5">What you will learn </h2>
@@ -691,7 +694,10 @@
          <div class=" xl:px-40 px-6 py-16 grid sm:grid-cols-2 gap-8 items-center lg:grid-cols-5 dark:bg-[#111c31] dark:text-white">
 
              <div class="flex flex-col gap-4">
-                <div class="w-[160px]"><img class="w-full" src="assets/logo.png" alt=""></div>
+                <div class="w-[160px]">
+                    <img class="w-full flex dark:hidden" src="assets/logo.png" alt="">
+                    <img class="w-full hidden dark:flex" src="assets/whitelogo.png" alt="">
+                </div>
                <p class="pt-3 font-semibold">
                 Level39 <br>
                 One Canada Square, <br>
